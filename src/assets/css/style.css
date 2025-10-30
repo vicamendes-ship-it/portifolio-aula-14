@@ -31,7 +31,7 @@ header{
     z-index: 0;
 }
 .btn-gradient{
-    background: linear-gradient(135deg, #ff7675, #f54ea2);
+    background: linear-gradient(135deg, #db6565, #f10813);
     border: none;
     color: #fff;
     transition: all 0.3s;
@@ -50,8 +50,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.bg-gradient-purple{
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+.bg-gradient-red{
+    background: linear-gradient(135deg, #c03333, #a71a1a);
     color: #fff;
 }
 
@@ -78,4 +78,8 @@ body{
 footer{
     background: #222;
     color: #fff;
+}
+
+.bg-nav-custom{
+    background: goldenrod;
 }
