@@ -31,7 +31,7 @@ header{
     z-index: 0;
 }
 .btn-gradient{
-    background: linear-gradient(135deg, #db6565, #f10813);
+    background: linear-gradient(135deg, #df3131, #a32c1c);
     border: none;
     color: #fff;
     transition: all 0.3s;
@@ -51,12 +51,12 @@ body{
 }
 
 .bg-gradient-red{
-    background: linear-gradient(135deg, #c03333, #a71a1a);
+    background: linear-gradient(135deg, #d62626, #f36363);
     color: #fff;
 }
 
-.bg-gradient-pink{
-    background: linear-gradient(135deg,#f54ea2, #ff7675);
+.bg-gradient-gold{
+    background: linear-gradient(135deg,#f0c44c, #cea317);
     color: #fff;
 }
 
@@ -82,4 +82,12 @@ footer{
 
 .bg-nav-custom{
     background: goldenrod;
+}
+
+.bg-card-custom{
+    background: #797575;
+}
+
+.bg-marca-custom{
+    background: #680e0e;
 }
