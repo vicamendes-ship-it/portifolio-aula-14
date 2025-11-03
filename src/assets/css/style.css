@@ -1,7 +1,7 @@
 header{
     position: relative;
     min-height: 100vh;
-    color: #fff;
+    color: #F5EFE7;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ header{
 .btn-gradient{
     background: linear-gradient(135deg, #df3131, #a32c1c);
     border: none;
-    color: #fff;
+    color: #F5EFE7;
     transition: all 0.3s;
 
     &:hover{
@@ -51,13 +51,13 @@ body{
 }
 
 .bg-gradient-red{
-    background: linear-gradient(135deg, #d62626, #f36363);
-    color: #fff;
+    background: linear-gradient(135deg, #700122, #f36363);
+    color: #F5EFE7;
 }
 
 .bg-gradient-gold{
     background: linear-gradient(135deg,#f0c44c, #cea317);
-    color: #fff;
+    color: #F5EFE7;
 }
 
 .card-hover{
@@ -77,8 +77,32 @@ body{
 
 footer{
     background: #222;
-    color: #fff;
+    color: #F5EFE7;
+
+    .redes-sociais {
+        display: flex; /* Alinha os ícones em linha */
+        justify-content: center; /* Centraliza os ícones */
+        margin-top: 10px; /* Espaço acima dos ícones */
+        gap: 15px; /* Espaçamento entre os ícones */
+      }
+      
+      .redes-sociais img {
+        width: 30px; /* Largura do ícone */
+        height: 30px; /* Altura do ícone */
+        /* Adicione transição para efeito de hover, se desejar */
+        transition: transform 0.3s ease; 
+      }
+      
+      .redes-sociais img:hover {
+        transform: scale(1.1); /* Efeito de "zoom" no hover */
+      }
+      
+      /* Opcional: Link para abrir em nova aba */
+      .redes-sociais a {
+        text-decoration: none; /* Remove sublinhado */
+      }
 }
+
 
 .bg-nav-custom{
     background: goldenrod;
@@ -89,5 +113,10 @@ footer{
 }
 
 .bg-marca-custom{
-    background: #680e0e;
+    background: #700122;
 }
+
+.bg-estilo{
+    background:rgba(#F5EFE7);
+}
+
