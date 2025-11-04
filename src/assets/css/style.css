@@ -120,3 +120,7 @@ footer{
     background:rgba(#F5EFE7);
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #700122;
+}
+
